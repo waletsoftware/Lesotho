@@ -87,15 +87,14 @@ phonemes_pred = phonemizer.phonemize(predictions, language="en")
 print(f"Phoneme-Level WER: {wer(phonemes_gt, phonemes_pred):.2f}")
 ```
 # 5️⃣ Key Findings & Recommendations
-✅ Whisper-Small performed better than Wav2Vec2 on Sesotho code-switched speech.
-✅ Common errors: phoneme misinterpretations, missing words, and long-audio degradation.
-✅ Recommended Improvements:
-
-* Train on larger, domain-specific Sesotho datasets.
-* Use phoneme-aware transcription models.
-* Apply post-processing correction using a language model.
+- Whisper-Small performed better than Wav2Vec2 on Sesotho code-switched speech.
+- Common errors: phoneme misinterpretations, missing words, and long-audio degradation.
+- Recommended Improvements:
+   * Train on larger, domain-specific Sesotho datasets.
+   * Use phoneme-aware transcription models.
+   * Apply post-processing correction using a language model.
 
 # 6️⃣ Citation & Credits
-  * Dataset Source: [NGO in Lesotho]
+  * Dataset Source: Lalapa AI Data Scientist Task
   * Pretrained Models: [OpenAI Whisper, Facebook Wav2Vec2]
 
