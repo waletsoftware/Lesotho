@@ -1,0 +1,8 @@
+transformers
+datasets
+jiwer
+torchaudio
+librosa
+phonemizer
+seaborn
+jupyter
