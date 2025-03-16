@@ -1,4 +1,4 @@
-# Sesotho Code-Switched Transcription Analysis
+# Lesotho Code-Switched Transcription Analysis
 Project Overview
 This project evaluates the performance of two automatic speech recognition (ASR) models, Whisper-Small and Wav2Vec2, on a code-switched Sesotho dataset. It includes:
 
